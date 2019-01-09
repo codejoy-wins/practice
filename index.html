@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Palanquin" rel="stylesheet">
+
+</head>
+<body>
+    <div id="container">
+        <div id="masthead">
+            <h1>Practice with JSON and CSS</h1>
+        </div>
+        <div id="buttonspace">
+                <button id="idk">I have a bad feeling about this...</button>
+        </div>
+        <div id="output">
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById("idk").addEventListener('click',myFunc);// when that button is clicked run my function
+
+        function myFunc(){
+            console.log("button was appropriately clicked");
+            document.getElementById("output").innerHTML = `
+            <h1> Html inserted by javascript </h1>
+            <p>
+                I could even have a list if I wanted.
+            </p>
+            <ul>
+                <li>List item</li>
+                <li>List item</li>
+                <li>List item</li>
+            </ul>
+            `
+        }
+
+        // function getJSON(){
+        //     fetch()
+        //     .then()
+        //     .then()
+        // }
+    </script>
+    
+</body>
+</html>

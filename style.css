@@ -1,0 +1,22 @@
+#container{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    color: royalblue;
+    font-family: 'Palanquin', sans-serif;
+
+}
+#masthead{
+    text-align: center;
+    padding: 5rem;
+}
+#masthead h1{
+    color:blueviolet;
+}
+#buttonspace{
+    text-align: center;
+    padding: 3rem;
+}
+#output{
+    padding: 2rem;
+}
